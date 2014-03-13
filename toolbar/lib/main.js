@@ -7,19 +7,19 @@ var { Frame } = require("sdk/ui/frame");
 var previous = ActionButton({
   id: "previous",
   label: "previous",
-  icon: "./icons/previous.png"
+  icon: "./icons/16-back.png"
 });
 
 var next = ActionButton({
   id: "next",
   label: "next",
-  icon: "./icons/next.png"
+  icon: "./icons/16-next.png"
 });
 
 var play = ActionButton({
   id: "play",
   label: "play",
-  icon: "./icons/play.png"
+  icon: "./icons/16-play.png"
 });
 
 var frame = new Frame({
